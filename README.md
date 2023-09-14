@@ -11,3 +11,16 @@ The AMT-Ebticar vehicle is designed using two precise control units: Raspberry P
 # Repository Overview
 * models : contains 3D Printable files designed by us.
 * others : other essential photos.
+  * schemes : contains the electrical systems schematics.
+* src : contains the main programs and code.
+* t-photos : contains one serious and one funny photo.
+* v-photos : contains the photos of the robot from all required directions.
+* video : contains youtube link of the video. 
+
+
+# Power and Sense management
+We used two batteries, one responsible for supplying power to the Raspberry Pi for analysis, and one responsible for supplying power to the Arduino for motion. The capacity of these batteries is 11 volts each, and the robot can operate continuously for approximately twenty minutes.
+
+
+# Program arrangement and Algorithm Planning
+The camera captures images at a speed of 20 frames per second and identifies red or green color through converting the reading system from RGB to HSV. It then creates a mask for the green and red colors, distinguishing them from other paths or rings. It further discerns between the closest and farthest cubes and their respective colors. The decision-making process to avoid obstacles is as follows: upon seeing the green cube, the direction is adjusted to the right to avoid the obstacle. In contrast, when the red cube is detected, the direction is adjusted to the 
