@@ -11,7 +11,7 @@ The AMT-Ebticar vehicle is designed using two precise control units: Raspberry P
 # Repository Overview
 * models : contains 3D Printable files designed by us.
 * others : other essential photos.
-  * schemes : contains the electrical systems schematics.
+* schemes : contains the electrical systems schematics.
 * src : contains the main programs and code.
 * t-photos : contains one serious and one funny photo.
 * v-photos : contains the photos of the robot from all required directions.
@@ -33,6 +33,7 @@ We used two batteries, one responsible for supplying power to the Raspberry Pi f
 *  3 ultrasonic sensor
 *  gyroscope sensor
 *  camera raspberry pi 4
+*  battary 
 
 
 # Program arrangement and Algorithm Planning
